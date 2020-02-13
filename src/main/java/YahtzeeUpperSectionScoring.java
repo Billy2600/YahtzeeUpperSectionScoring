@@ -33,6 +33,14 @@ public class YahtzeeUpperSectionScoring {
                         + " - Score: " + possibleScores[i]);
             }
         }
+
+        // Get highest score
+        int highest = 0;
+        for(int i = 0; i < possibleScores.length; i++) {
+            if(possibleScores[i] > highest)
+                highest = possibleScores[i];
+        }
+        System.out.println("Highest score: " + highest);
     }
 
     public static void main(String[] a) {
