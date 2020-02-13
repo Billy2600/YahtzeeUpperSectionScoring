@@ -1,5 +1,5 @@
 # Yahtzee Upper Section Scoring Challenge
-This is a solution for the (Yahtzee Upper Section Scoring)[https://www.reddit.com/r/dailyprogrammer/comments/dv0231/20191111_challenge_381_easy_yahtzee_upper_section/] challenge posted on /r/dailyprogrammer. Entire challenge is quoted verbatim below:
+This is a solution for the (Yahtzee Upper Section Scoring)[https://www.reddit.com/r/dailyprogrammer/comments/dv0231/20191111_challenge_381_easy_yahtzee_upper_section/] challenge posted on /r/dailyprogrammer. This is a simple CLI program, whose main function is in the YahtzeeUpperSectionScoring class. Entire challenge is quoted verbatim below:
 
 ---
 
