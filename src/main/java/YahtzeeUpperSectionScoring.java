@@ -17,7 +17,7 @@ public class YahtzeeUpperSectionScoring {
         return dice;
     }
 
-    private static void calculateMaxPossibleScore(int[] dice) {
+    private static int calculateMaxPossibleScore(int[] dice) {
         // Get count of each number rolled
         int[] rollCount = { 0, 0, 0, 0, 0, 0 }; // One for each possible number
         for(int i = 0; i < dice.length; i++) {
@@ -40,11 +40,14 @@ public class YahtzeeUpperSectionScoring {
             if(possibleScores[i] > highest)
                 highest = possibleScores[i];
         }
-        System.out.println("Highest score: " + highest);
+
+        return highest;
     }
 
     public static void main(String[] a) {
         int[] dice = performRolls();
-        calculateMaxPossibleScore(dice);
+        int highest = calculateMaxPossibleScore(dice);
+
+        System.out.println("Highest score: " + highest);
     }
 }
